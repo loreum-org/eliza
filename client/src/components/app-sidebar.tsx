@@ -34,7 +34,10 @@ export function AppSidebar() {
         <Sidebar>
             <SidebarContent>
                 <SidebarGroup>
-                    <SidebarGroupLabel>Application</SidebarGroupLabel>
+                    <SidebarGroupLabel>
+                        <img src="https://cdn.loreum.org/logos/white.svg" alt="Loreum Logo" style={{ width: "24px", height: "24px", marginRight: "8px" }} />
+                        Loreum
+                    </SidebarGroupLabel>
                     <SidebarGroupContent>
                         <SidebarMenu>
                             {items.map((item) => (
